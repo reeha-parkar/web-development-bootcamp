@@ -1,0 +1,27 @@
+.red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    left: 208px;
+    top: 208px;
+  }
+  
+  .blue{
+    height: 100px;
+    width: 100px;
+    background-color: blue;  
+    position: absolute;
+    left: 108px;  /* 208 because 8 is the default offset from the screen extreme */
+    top: 108px;
+  }
+  
+  .yellow{
+    height: 100px;
+    width: 100px;
+    background-color: yellow; 
+    position: absolute;
+  }
+  
+  /*Absolute positioning does not leave the placeholder of the box*/
+  /*The parent does not always have to be the body, it can be a div of class container (example)*/

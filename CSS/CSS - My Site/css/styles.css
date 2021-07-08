@@ -1,3 +1,121 @@
 body{
-    background-color: blue;
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-size: 5.625rem;  /*100% is 16 px, so 90px will be 562.5*/ /* 16px = 1em = 100% */
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66bfbf;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: 'DM Serif Display', serif;
+    color: #66BFBF;
+}
+
+h3{
+    font-family: 'DM Serif Display', serif;
+    color: #11999e;
+}
+
+a{
+    color: #11999e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-container{
+    position: relative;
+    background-color: #e4f9f5;
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin: 100px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skill-row{
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.django-img{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.tf-img{
+    width: 40%;
+    float: right;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #eaf6f6;
+    border-width: 10px;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.contact-me-button {
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #66BFBF;
+    box-shadow: 1px 1px 5px 0 #000000;
+    text-shadow: 1px 1px 5px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: normal;
+}
+ 
+.contact-me-button:hover {
+    background: #11999E;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 40px 0 5px 0;
+}
+
+.contact-me{
+    width: 50%;
+    margin: auto;
+}
+
+.footer-link{
+    padding: 30px;
+}
+
+.copyright{
+    font-size: 0.75rem;
+    padding: 0;
 }
