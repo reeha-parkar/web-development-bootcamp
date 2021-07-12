@@ -78,3 +78,49 @@ p{
 .icon:hover{
     color: #ff4c68;
 }
+
+/* Testimonials Section */
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px 20px 10px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 20px;    
+}
