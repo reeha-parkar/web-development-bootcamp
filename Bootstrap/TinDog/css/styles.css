@@ -1,24 +1,42 @@
-
 body{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-#title{
-    background-color: #ff4c68;
-    color: whitesmoke;
-}
+/* Headings */
 
-h1{
+.big-heading{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
     font-size: 50px;
+    color: whitesmoke;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .container-fluid{
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: whitesmoke;
+}
+
+.white-section{
+    background-color: white;
 }
 
 /* Navigation bar */
@@ -46,6 +64,13 @@ h1{
     margin: 5% 3% 5% 0;
 }
 
+/* Title Section */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
 /* Iphone image */
 .iphone-img{
     /* width: 60%; */
@@ -69,19 +94,16 @@ h1{
 
 /* Features */
 #features{
-    padding: 7% 15%;
-    background-color: white;
     position: relative;
     z-index: 1;
 }
 
 .feature-box{
     padding: 5%;
-    text-align: center;
+    
 }
 
-h3{
-    font-weight: 700;
+.feature-title{
     font-size: 1.5rem;
 }
 
@@ -102,12 +124,9 @@ p{
 
 #testimonials{
     background-color: #ef8172;
-    text-align: center;
-    color: white;
 }
 
-h2{
-    font-weight: 700;
+.testimonial-text{
     font-size: 3rem;
     line-height: 1.5;
 }
@@ -118,13 +137,8 @@ h2{
     margin: 20px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
-
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -137,7 +151,11 @@ h2{
 
 #pricing{
     padding: 5% 10%;
-    text-align: center;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column{
@@ -146,21 +164,6 @@ h2{
 
 /* Call To Action section */
 
-#cta{
-    background-color: #ff4c68;
-    text-align: center;
-    padding: 7% 15%;
-}
-
-#cta h3{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
-    color: whitesmoke;
-    line-height: 2;
-    width: 90%;
-}
-
 .cta-button{
     margin-top: 50px;
 }
@@ -168,7 +171,6 @@ h2{
 /* Footer section */
 #footer{
     background-color: white;
-    text-align: center;
     margin: 50px auto;
 }
 
